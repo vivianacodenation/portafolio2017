@@ -1,0 +1,16 @@
+# Site settings
+title: Portafolio2017
+email: viviana@codenation.com
+description: > # this means to ignore newlines until "baseurl:"
+  khk
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. https://vivianacodenation.github.io
+github_username: vivianacodenation
+
+# Build settings
+include: ['_pages']
+sass:
+  sass_dir: _sass
+  style: compressed
+kramdown:
+  input: GFM
