@@ -55,7 +55,7 @@
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -92,7 +92,7 @@
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }

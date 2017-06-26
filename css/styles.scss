@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: "Droid Sans", sans-serif;
     background-color: white;
     color: #37353a;
 }
@@ -65,7 +65,6 @@ a.green-link{
 }
 
 a {
-
     color: $primary;
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     -webkit-transition: all .2s ease-in-out;
@@ -75,6 +74,19 @@ a {
     &:focus {
         text-decoration: none;
         color: darken($primary,20%);
+    }
+}
+
+.btn-green{
+    background: #89fba3;
+    padding: 5px;
+    color: #37353a;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    &:hover{
+        background: #59e9c3;
+        color: #37353a;
     }
 }
 
@@ -378,9 +390,17 @@ body {
     background: linear-gradient(to left, #00C9FF , #92FE9D);
     height: 5px;
 }
+//Portfolio
 #portfolio{
     background: #f3f3f3;
 }
+//Portfolio Modal
+#portfolio-modal{
+    .list-inline{
+        font-weight: bold;
+    }
+}
+//Contact
 #contact{
     padding-top: 50px; 
     p{
